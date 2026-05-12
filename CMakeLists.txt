@@ -12,9 +12,8 @@ add_subdirectory(freetype)
 add_subdirectory(imgui)
 
 add_executable(breakout
-   main.cpp
    glad/src/gles2.c
-   stb.cpp
+   main.cpp
 )
 
 target_include_directories(breakout PRIVATE

@@ -6,10 +6,6 @@
 #include "glad/include/glad/gles2.h"
 
 #include <GLFW/glfw3.h>
-#include <assimp/material.h>
-#include <assimp/matrix4x4.h>
-#include <assimp/mesh.h>
-#include <assimp/types.h>
 #include <cmath>
 #include <cstdlib>
 #include <cstring>

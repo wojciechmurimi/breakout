@@ -1,5 +1,4 @@
 #include <exception>
-#include <memory>
 #include <string_view>
 #include <unordered_map>
 #define IMGUI_IMPL_OPENGL_ES3 1
@@ -7,7 +6,6 @@
 #include "glad/include/glad/gles2.h"
 
 #include <GLFW/glfw3.h>
-// #include <glm/gtc/bitfield.hpp>
 #include <assimp/material.h>
 #include <assimp/matrix4x4.h>
 #include <assimp/mesh.h>
@@ -35,9 +33,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include <assimp/Importer.hpp>
-#include <assimp/postprocess.h>
-#include <assimp/scene.h>
 #include <vector>
 
 // Dear ImGui: standalone example application for GLFW + OpenGL 3, using

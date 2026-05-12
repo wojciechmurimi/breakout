@@ -17,7 +17,6 @@
 #include <glm/geometric.hpp>
 #include <glm/matrix.hpp>
 #include <glm/trigonometric.hpp>
-#include <stb/stb_image.h>
 
 #include <cassert>
 #include <cstddef>
